@@ -23,8 +23,8 @@
 
 ## Зависимости:
 
-1. (Waybar)[https://github.com/Alexays/Waybar]
-2. (Hyprland)[https://github.com/hyprwm/Hyprland]
+1. [Waybar](https://github.com/Alexays/Waybar)
+2. [Hyprland](https://github.com/hyprwm/Hyprland)
 
 ## Результат работы:
-!(итог проделанной работы)[/2025-08-21-215733_hyprshot.png "Итог работы!"]
+![итог проделанной работы](/2025-08-21-215733_hyprshot.png "Итог работы!")
