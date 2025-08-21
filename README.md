@@ -32,6 +32,8 @@
 2. [Hyprland](https://github.com/hyprwm/Hyprland)
 3. [Hyprshot](https://github.com/Gustash/hyprshot)
 4. [Fuzzel](https://man.archlinux.org/man/fuzzel.1.en) (скачать на arch ```sudo pacman -S fuzzel```)
+5. [Nerd-fonts](https://www.nerdfonts.com/)
+6. [Pavucontrol](https://github.com/pulseaudio/pavucontrol)
 
 ## Примечание:
 
