@@ -1,0 +1,65 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 20,
+    "spacing": 5,
+
+    "modules-left": ["hyprland/workspaces", "custom/platform-profile"],
+    "modules-center": ["memory", "clock"],
+    "modules-right": ["wireplumber", "hyprland/language", "idle_inhibitor", "network"],
+
+    "hyprland/workspaces": {
+        "format": "<span size='larger'>{icon}</span>",
+        "on-click": "activate",
+        "format-icons": {
+            "active": "\uebb4",
+            "default": "\udb86\udd78"
+        },
+        "icon-size": 10,
+        "sort-by-number": true,
+        "persistent-workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+        }
+    },
+
+    "clock": {
+	"interval": 1,
+        "format": "{:%d.%m.%Y | %H:%M:%S}"
+    },
+
+    "wireplumber": {
+        "format": "\udb81\udd7e",
+	"on-click": "pavucontrol"
+    },
+
+    "memory": {
+        "interval": 30,
+        "format": "\uf4bc  {used:0.1f}G |"
+    },
+
+    "network": {
+        "format": "",
+        "format-ethernet": "\udb83\udc9d",
+        "format-wifi": "{icon}",
+        "format-disconnected": "\udb83\udc9c",
+        "format-icons": ["\udb82\udd2f", "\udb82\udd1f", "\udb82\udd22", "\udb82\udd25", "\udb82\udd28"],
+        "tooltip-format-wifi": "{essid} ({signalStrength}%)",
+        "tooltip-format-ethernet": "{ifname}",
+        "tooltip-format-disconnected": "Disconnected",
+    },
+
+    "hyprland/language": {
+        "format": "{short}"
+    },
+
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "\udb80\udd76",
+            "deactivated": "\udb83\udfaa"
+        }
+    }
+}
